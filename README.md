@@ -1,4 +1,7 @@
 # Discord Bot Tutorial
+## Prerequisites
+- [NodeJS](https://nodejs.org/en/download/)
+
 ## Setup
 1. Create a folder in your file system and initialize an empty node project using `npm init`. You can type whatever you want as project names, description, etc.
 2. Now you need to install the Discord.JS Framework in order to communicate with the discord servers by typing `npm install discord.js`.
