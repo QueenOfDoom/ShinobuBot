@@ -1,0 +1,26 @@
+{
+  "name": "shinobu",
+  "version": "1.0.0",
+  "description": "Discord Bot Tutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QueenOfDoom/ShinobuBot.git"
+  },
+  "keywords": [
+    "DiscordJS",
+    "NodeJS",
+    "JS",
+    "Discord",
+    "Bot"
+  ],
+  "author": "Doomer",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/QueenOfDoom/ShinobuBot/issues"
+  },
+  "homepage": "https://github.com/QueenOfDoom/ShinobuBot#readme"
+}
