@@ -24,7 +24,7 @@ const bot = new Discord.Client();
 ```js
 bot.login('[placeholder for the token from the Discord Developers page]');
 ```
-5. Since we don't want our bot just to join and be silent forever, we will implement a very simple logging mechanism, so we - the bot creators now, when the bot is starting. Insert this line above the `login` line.
+5. Since we don't want our bot just to join and be silent forever, we will implement a very simple logging mechanism, so we - the bot creators know, when the bot is starting. Insert this line above the `login` line.
 ```js
 bot.on('ready', () => {
     console.log('Bot is now online!');
