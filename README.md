@@ -30,7 +30,15 @@ bot.on('ready', () => {
     console.log('Bot is now online!');
 });
 ```
-=> Now the bot gives us a message when he log's in.
+6. Now every time we start the bot, the bot will tell us, that he's going online. To summarize the code we've written so far:
+```js
+const Discord = require('discord.js');
+const bot = new Discord.Client();
+bot.on('ready', () => {
+    console.log('Bot is now online!');
+});
+bot.login('[token placeholder]');
+```
 
 ## Starting Bot
 To start the bot you simply go into the console (navigate to the folder) and start the bot using `node .`
